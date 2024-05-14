@@ -11,6 +11,8 @@ Finally, there is an API V2 gateway which exposes access to the view-only lambda
 
 This app is created as a devlog of my own progress in building serverless applications and is intended for educational use only.
 
+Note that the database name is set to "YOUR_DATABASE_NAME" inside lib/aws-app-test-1-stack.ts.
+
 @ivyroot
 
 
