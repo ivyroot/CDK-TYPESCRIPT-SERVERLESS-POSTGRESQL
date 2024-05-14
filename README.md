@@ -5,7 +5,7 @@
 
 There are many example CDK apps out there which demonstrate how to run code on AWS, this is one of them.
 
-This example stack implements three lambda functions. They all access a single PostgreSQL server instance running in RDS. The lambdas are for admin, read-write, and view-only usage.
+This example stack implements three lambda functions which access a single PostgreSQL server instance running in RDS. The lambdas are for admin, read-write, and view-only usage.
 
 Finally, there is an API V2 gateway which exposes access to the view-only lambda function.
 
