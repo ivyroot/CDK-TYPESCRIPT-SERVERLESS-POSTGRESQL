@@ -1,15 +1,13 @@
 
 ## CDK / TYPESCRIPT / SERVERLESS / POSTGRESQL
 
-### There are many example CDK apps out there which demonstrate how to run code on AWS, this is one of them.
+**There are many example CDK apps out there which demonstrate how to run code on AWS, this is one of them.**
 
 This example stack implements three lambda functions which access a single PostgreSQL server instance running in RDS. The lambdas are for admin, read-write, and view-only usage.
 
-Finally, there is an API V2 gateway which exposes access to the view-only lambda function.
+There is also an API V2 gateway which exposes access to the view-only lambda function.
 
-This app is created as a devlog of my own progress in building serverless applications and is intended for educational use only.
-
-To get started, search for "YOUR_DATABASE_NAME" inside lib/aws-app-test-1-stack.ts.
+This app is created as a devlog of my own progress in building serverless applications and is intended for educational use only. To get started, search for "YOUR_DATABASE_NAME" inside lib/aws-app-test-1-stack.ts.
 
 @ivyroot
 
