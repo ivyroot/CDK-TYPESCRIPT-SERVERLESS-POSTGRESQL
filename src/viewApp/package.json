@@ -1,0 +1,26 @@
+{
+  "name": "view-app",
+  "version": "1.0.0",
+  "description": "public viewer access to db",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "generate": "drizzle-kit generate",
+    "build": "esbuild index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "drizzle-kit": "^0.21.0",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1614.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.10",
+    "postgres": "^3.4.4"
+  }
+}
